@@ -4,8 +4,8 @@ namespace Arys.Escalation
 {
     internal static class PatcherHelper
     {
-        private const FieldAttributes defaultFieldAttributes =
-            FieldAttributes.Public | FieldAttributes.Static | FieldAttributes.Literal | FieldAttributes.HasDefault;
+        private const FieldAttributes defaultFieldAttributes
+            = FieldAttributes.Public | FieldAttributes.Static | FieldAttributes.Literal | FieldAttributes.HasDefault;
 
         internal static void AddEnumValues(ref TypeDefinition typeDef, params string[] names)
         {

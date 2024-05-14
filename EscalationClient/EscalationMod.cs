@@ -7,8 +7,7 @@ namespace Arys.Escalation
     {
         private void Awake()
         {
-            // Plugin startup logic
-            Logger.LogInfo($"Plugin is loaded!");
+            BotHelper.AddCustomBots();
         }
     }
 }
