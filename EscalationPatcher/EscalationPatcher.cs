@@ -2,13 +2,13 @@
 using Mono.Cecil;
 using System.Collections.Generic;
 
-namespace EscalationPatcher
+namespace Arys.Escalation
 {
     public static class EscalationPatcher
     {
         public static IEnumerable<string> TargetDLLs { get; } = new[] { "Assembly-CSharp.dll" };
 
-        internal static ManualLogSource LogSource = Logger.CreateLogSource("Arys-Escalation-Patcher");
+        internal static readonly ManualLogSource LogSource = Logger.CreateLogSource("Arys-Escalation-Patcher");
 
         public static void Patch(ref AssemblyDefinition assembly)
         {

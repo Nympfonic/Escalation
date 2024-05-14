@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net35</TargetFramework>
-    <AssemblyName>Arys-$(MSBuildProjectName)</AssemblyName>
-    <RootNamespace>Arys.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>Arys-EscalationPatcher</AssemblyName>
+	<Version>1.0.0</Version>
+    <RootNamespace>Arys.Escalation</RootNamespace>
     <BaseOutputPath>build</BaseOutputPath>
   </PropertyGroup>
 
@@ -12,7 +13,7 @@
       <HintPath>..\..\SPT Assembly Refs\38x\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Cecil">
-      <HintPath>..\references\Mono.Cecil.dll</HintPath>
+      <HintPath>..\..\SPT Assembly Refs\38x\Mono.Cecil.dll</HintPath>
     </Reference>
   </ItemGroup>
 

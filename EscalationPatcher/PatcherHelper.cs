@@ -1,6 +1,6 @@
 ﻿using Mono.Cecil;
 
-namespace EscalationPatcher
+namespace Arys.Escalation
 {
     internal static class PatcherHelper
     {
