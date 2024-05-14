@@ -1,4 +1,4 @@
-﻿namespace EscalationPatcher
+﻿namespace Arys.Escalation
 {
     internal static class EscalationData
     {
