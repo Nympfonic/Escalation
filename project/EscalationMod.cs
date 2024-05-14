@@ -1,9 +1,9 @@
 ﻿using BepInEx;
 
-namespace SPT_Client_Mod_Template
+namespace Arys.Escalation
 {
-    [BepInPlugin("com.YourName.ModName", "Mod name", "1.0.0")]
-    public class Plugin : BaseUnityPlugin
+    [BepInPlugin("com.Arys.Escalation", "Arys' Escalation", "1.0.0")]
+    public class EscalationMod : BaseUnityPlugin
     {
         private void Awake()
         {

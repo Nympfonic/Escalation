@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net471</TargetFramework>
-    <AssemblyName>SPT-Client-Mod-Template</AssemblyName>
+    <AssemblyName>Arys-Escalation</AssemblyName>
     <Description></Description>
     <Version>1.0.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
-    <RootNamespace>$(MSBuildProjectName.Replace("-", "_").Replace(" ", "_"))</RootNamespace>
+    <RootNamespace>Arys.Escalation</RootNamespace>
     <BaseOutputPath>build\</BaseOutputPath>
   </PropertyGroup>
 
